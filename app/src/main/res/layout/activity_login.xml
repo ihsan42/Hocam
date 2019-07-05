@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textViewLoginEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/editTextloginEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/textViewLoginEmail"
+        android:inputType="textPersonName"
+        android:hint="E-mail adresinizi giriniz..." />
+
+    <TextView
+        android:id="@+id/textViewLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextloginEmail"
+        android:text="Şifre" />
+
+    <EditText
+        android:id="@+id/editTextloginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLoginPassword"
+        android:ems="10"
+        android:hint="Şifrenizi giriniz..."
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextloginPassword"
+        android:text="Beni Hatırla" />
+
+    <Button
+        android:id="@+id/buttonLoginSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxRememberMe"
+        android:text="Giriş" />
+
+    <Button
+        android:id="@+id/buttonLoginRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLoginSignIn"
+        android:text="Kayıt Ol" />
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textViewRegisterMagenerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yönetici Adı"/>
+
+    <EditText
+        android:id="@+id/editTexRegisterManegerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRegisterMagenerName"
+        android:hint="Yönetici adını giriniz..."/>
+
+    <TextView
+        android:id="@+id/textViewSchoolName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTexRegisterManegerName"
+        android:text="Okul Adı" />
+
+    <EditText
+        android:id="@+id/editTextSchoolName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/textViewSchoolName"
+        android:inputType="textPersonName"
+        android:hint="Okul adını giriniz..." />
+
+    <TextView
+        android:id="@+id/textViewSchoolCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSchoolName"
+        android:text="Okul Kodu" />
+
+    <EditText
+        android:id="@+id/editTextSchoolCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/textViewSchoolCode"
+        android:hint="Okul kodunu giriniz..."
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSchoolCode"
+        android:text="E-mail" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewEmail"
+        android:ems="10"
+        android:hint="E-mail adresinizi giriniz..."
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:text="Şifre" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPassword"
+        android:ems="10"
+        android:hint="Şifreyi giriniz..."
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textViewPasswordAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:text="Şifre Tekrar" />
+
+    <EditText
+        android:id="@+id/editTextPasswordAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPasswordAgain"
+        android:ems="10"
+        android:hint="Şifreyi tekrar giriniz..."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPasswordAgain"
+        android:text="Kayıt Ol" />
+    <Button
+        android:id="@+id/buttonHasAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonRegister"
+        android:text="Zaten Kayıtlıyım" />
+
+
+</RelativeLayout>

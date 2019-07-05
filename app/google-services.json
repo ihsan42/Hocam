@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "826545425291",
+    "firebase_url": "https://hocam-a3a22.firebaseio.com",
+    "project_id": "hocam-a3a22",
+    "storage_bucket": "hocam-a3a22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826545425291:android:0d742b923f83fb55",
+        "android_client_info": {
+          "package_name": "com.egitimyazilim.iletisim.hocam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826545425291-u3jaug7cp3t2p835ivnl5nb00eko8u65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.egitimyazilim.iletisim.hocam",
+            "certificate_hash": "6e6d50963a781dbf449bf0007c486268e442554e"
+          }
+        },
+        {
+          "client_id": "826545425291-r3dgltrjo8dscmv4un3jl6npnnvgnmsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbtwxSx2CG4Kao-zPIn8UjPkiNOlJet-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826545425291-r3dgltrjo8dscmv4un3jl6npnnvgnmsu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_teachers"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/teachers" />
+        <item
+            android:id="@+id/nav_parents"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/parents" />
+        <item
+            android:id="@+id/nav_roll_calls"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/roll_calls" />
+        <item
+            android:id="@+id/nav_classes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/classes" />
+        <item
+            android:id="@+id/nav_requests"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/requests" />
+        <item
+            android:id="@+id/nav_lesson_hours"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/lesson_hours" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/exit" />
+    </group>
+</menu>

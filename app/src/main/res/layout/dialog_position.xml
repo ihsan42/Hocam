@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/position_title_height"
+        android:background="@color/position_title_backgound_color"
+        android:gravity="center"
+        android:text="@string/position_title"
+        android:textColor="@color/position_title_text_color"
+        android:textSize="@dimen/position_title_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonManeger"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/position_buttons_height"
+        android:layout_below="@id/textViewTitle"
+        android:text="@string/position_maneger"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+    <Button
+        android:id="@+id/buttonTeacher"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/position_buttons_height"
+        android:layout_below="@id/buttonManeger"
+        android:text="@string/position_teacher"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+    <Button
+        android:id="@+id/buttonParent"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/position_buttons_height"
+        android:layout_below="@+id/buttonTeacher"
+        android:text="@string/position_parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+</RelativeLayout>

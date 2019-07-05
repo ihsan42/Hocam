@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Hocam</string>
+    <string name="position_title">Göreviniz Nedir?</string>
+    <string name="position_maneger">İdareciyim</string>
+    <string name="position_teacher">Öğretmenim</string>
+    <string name="position_parent">Veliyim</string>
+    <string name="sign_up_title">Giriş Yap</string>
+    <string name="sign_up_remember_me">Beni Hatırla</string>
+    <string name="sign_up_forgat_password">Şifremi unuttum</string>
+    <string name="sign_up_register">Hala kayıt yaptırmadın mı? Şimdi kaydol!</string>
+    <string name="sign_up_keep_remember_on">Oturum açık kalsın</string>
+    <string name="sign_up_submit_button_name">Giriş</string>
+    <string name="sign_up_edittext_address_hint">E-mail adresinizi giriniz...</string>
+    <string name="sign_up_edittext_password_hint">Şifrenizi giriniz...</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="teachers">Öğretmenler</string>
+    <string name="classes">Sınıflar</string>
+    <string name="parents">Veliler</string>
+    <string name="roll_calls">Yoklamalar</string>
+    <string name="lesson_hours">Ders Saatleri</string>
+    <string name="requests">İstekler</string>
+    <string name="exit">Çıkış Yap</string>
+    <string name="toast_sign_up_null_address">Kullanıcı adı boş bırakılamaz!</string>
+    <string name="toast_sign_up_null_password">Şifre boş bırakılamaz!</string>
+    <string name="title_activity_login">Giriş Yap</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

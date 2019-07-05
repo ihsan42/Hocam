@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="position_title_height">75dp</dimen>
+    <dimen name="position_title_size">35dp</dimen>
+    <dimen name="position_buttons_height">65dp</dimen>
+    <dimen name="sign_up_title_height">75dp</dimen>
+    <dimen name="sign_up_title_size">35dp</dimen>
+</resources>
